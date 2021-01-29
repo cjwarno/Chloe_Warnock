@@ -36,10 +36,44 @@ header img {
     margin: 0 auto;
 }
 
+nav {
+    text-align: center;
+    background-color: lightgreen;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+nav a {
+    background-color: orange;
+    color: crimson;
+    padding: 15px 50px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav a:hover {
+    background-color: green;
+    color: crimson;
+}
+
 main {
-    background-color: chocolate;
+    background-color: lightgreen;
     padding: 20px;
     margin: 20px 0;
+}
+
+main h1 {
+    text-align: center;
+
+}
+
+main img {
+    display: block;
+    width: 75%;
+    margin: 20px auto;
+    border-radius: 20px;
+    border: 2px solid black;
+    box-shadow: 5px 10px 10px black;
 }
 
 footer {
