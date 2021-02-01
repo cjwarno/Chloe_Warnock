@@ -65,6 +65,10 @@ footer {
     margin: 10px;
 }
 
+.desktop {
+    display: none;
+}
+
 /* Tablet Styles */
 
 @media only screen and (min-width: 768px) {
@@ -105,5 +109,48 @@ footer {
 
     aside {
         width: 30%;
+    }
+}
+
+/* Desktop Styles */
+
+@media only screen and (min-width: 1024px) {
+
+    header {
+        background-image: url('../images/blue.jpeg');
+        padding: 150px 0;
+    }
+
+    header h1 {
+        font-size: 80px;
+    }
+
+    nav li a {
+        font-size: 30px;
+        padding: 20px 75px;
+        border-radius: 20px 20px 0 0
+    }
+
+    #container {
+        width: 80%;
+        margin: 20px auto;
+        border: 4px solid black;
+    }
+
+    .desktop {
+        display: block;
+    }
+
+    .tab_mobile {
+        display: none;
+    }
+
+    .active {
+        background-color: darkblue;
+    }
+
+    main img {
+        border-radius: 20px;
+        border: 4px solid black;
     }
 }
