@@ -74,10 +74,36 @@ footer {
         background-position: center center;
         padding: 60px 0;
     }
-}
 
-header h1 {
+    header h1 {
     color: whitesmoke;
     text-shadow: 2px 2px 2px black;
     font-size: 3em;
+    }
+
+    nav li {
+    display: inline-block;
+    }
+
+    nav li a {
+    padding: 10px 40px;
+    }
+
+    main {
+        display: flex;
+    }
+
+    section, aside {
+        border: 4px solid grey;
+        padding: 20px;
+        margin: 10px;
+    }
+
+    section {
+        width: 70%;
+    }
+
+    aside {
+        width: 30%;
+    }
 }
