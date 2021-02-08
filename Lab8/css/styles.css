@@ -1,0 +1,170 @@
+body {
+    background-color: lightskyblue;
+}
+
+header {
+    background-color: lightskyblue;
+    color: mediumvioletred;
+    padding: 10% 0;
+    text-align: center;
+    font-size: 75%;
+}
+
+body {
+    background-color: lightskyblue;
+}
+
+nav {
+    background-color: lightskyblue;
+}
+
+nav ul {
+    padding: 10%;
+    list-style: none;
+}
+
+nav li {
+    display: block;
+}
+
+nav li a:hover {
+    background-color: lightskyblue;
+    color: mediumvioletred;
+}
+
+main {
+    background-color: lightskyblue;
+    padding: 10%;
+}
+
+article {
+    background-color: lightskyblue;
+    padding: 0;
+}
+
+article img {
+    display: block;
+    margin: 20px auto;
+    width: 75%;
+    border-radius: 20px;
+}
+
+.projects {
+    background-color: lightskyblue;
+    padding: 0;
+    margin-top: 0%;
+}
+
+.projects img {
+    display: block;
+    width: 75%;
+    margin: 0 0;
+    border-radius: 10px;
+}
+
+aside {
+    background-color: lightskyblue;
+    margin: 0 0;
+    padding: 0;
+    text-align: center;
+}
+
+aside h2 {
+    margin-bottom: 40px;
+}
+
+aside ul {
+    padding: 0;
+    list-style: none;
+}
+
+aside li {
+    display: inline-block;
+}
+
+aside li a {
+    padding: 0 0;
+    background-color: lightskyblue;
+    text-align: center;
+    color: mediumvioletred;
+    font-size: 75%;
+    text-decoration: none;
+}
+
+aside li a:hover {
+    background-color: lightskyblue;
+}
+
+footer {
+    background-color: lightskyblue;
+    text-align: center;
+    color: mediumvioletred;
+    padding: 0 0;
+}
+
+.feature {
+    background-color: lightskyblue;
+    padding: 0 0;
+    margin-top: 0%;
+}
+
+#menu {
+    display: none;
+}
+
+div.bx-wrapper {
+    display: none;
+}
+
+@media only screen and (min-width: 481px) {
+    
+    nav {
+        text-align: center;
+    }
+
+    nav li {
+        display: inline-block;
+        width: 75%;
+    }
+
+    nav li  a {
+        background-color: lightskyblue;
+        color: mediumvioletred;
+    }
+
+    #menu {
+        display: block;
+    }
+
+    .slicknav_menu {
+        display: none;
+    }
+
+    div.bx-wrapper {
+        display: block;
+    }
+
+}
+
+@media only screen and (min-width: 791px) {
+
+    article img {
+        display: block;
+        margin: 20px 0;
+        width: 75%;
+    }
+
+    .feature {
+        background-color: lightskyblue;
+        padding: 0 0;
+        margin-top: 0%;
+    }
+
+    .projects {
+        display: flex;
+    }
+
+    .projects {
+        margin: 0%;
+    }
+}
