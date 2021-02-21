@@ -158,6 +158,7 @@ div.bx-wrapper {
     div.bx-wrapper {
         display: block;
     }
+
 }
 
 @media only screen and (min-width: 791px) {
@@ -180,5 +181,6 @@ div.bx-wrapper {
 
     .projects {
         margin: 0%;
-    }
+   }
+
 }
