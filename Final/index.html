@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Final</title>
     <link href="css/normalize.css" rel="stylesheet" type="text/css">
@@ -26,45 +26,68 @@
         });
     </script>
 </head>
+
 <body>
     <div id="container">
-    <header>
-        <h1>Photography</h1>
+
+    <header id="#top">
+        <h1>My Photography</h1>
     </header>
 
     <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="gallery.html">Gallery</a>
-        <a href="contact.html">Contact</a>
-        <a href="more.html">More Information</a>
+        <ul id="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="more.html">More Information</a></li>
+        </ul>
     </nav>
+    </div>
 
     <main>
-<section>
-    <h2>Welcome to Photography</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum debitis, inventore, dolores id dicta iure hic obcaecati itaque quae perspiciatis sapiente accusamus quasi? Dolore, hic quasi? Tempore quisquam at pariatur?</p>
-    
-            <img class="tab_mobile" src="images/ferris.jpg" alt="Ferris Wheel">
-            <img class="desktop" src="images/flower.jpg" alt="Flower">
+        <section>
+          <h2>Photography</h2>
+            <article>
+               
+                <div class="slider">
+                    <div><img src="images/bearr.jpg" alt="Bear"></div>
+                    <div><img src="images/eyye.jpg" alt="My Eye"></div>
+                  </div>
+                
+                <h2 id="main">What is Photography</h2>
 
-</section>
+                <p>Photography is defined as the art or practice of taking and processing photographs.</p>
 
-<aside>
-    <h3>Makes of Camera</h3>
-    <ul>
-        <li>1</li>
-        <li>2</li>
-        <li>3</li>
-        <li>4</li>
-        <li>5</li>
-    </ul>
-</aside>
+                <a href="https://www.amateurphotographer.co.uk/wp-content/uploads/2019/08/Manual-masterclass-manual-focusing-600x400.jpg" data-lightbox="Image1" data-title="Camera">
+                <img src="https://www.amateurphotographer.co.uk/wp-content/uploads/2019/08/Manual-masterclass-manual-focusing-600x400.jpg" alt="Camera" class="center">
+                </a>
+
+                  </div>
+
+            </article>
+
+            <div class="feature">
+                <h3 id="portfolio">Photos</h3>
+                <div class="projects">
+                   <a href="images/ferris.jpg" data-lightbox="Photos" data-title="Ferris Wheel">
+                    <img src="images/ferris.jpg" alt="Ferris Wheel">
+                </a>
+                    <a href="images/flower.jpg" data-lightbox="Photos" data-title="Flower">
+                        <img src="images/flower.jpg" alt="Flower">
+                </a>
+                    <a href="images/fog.jpg" data-lightbox="Photos" data-title="Foggy Road">
+                        <img src="images/fog.jpg" alt="Foggy Road">
+                </a>
+                    <a href="images/grass.jpg" data-lightbox="Photos" data-title="Grass">
+                        <img src="images/grass.jpg" alt="Grass">
+                </a>
+                </div>
+
+        </section>
+        <a class="button" href="#top">Back To the Top</a>
     </main>
-
-
-
-<footer>&copy; 2021 - Final </footer>
-</div>
+    
 </body>
+<footer>&copy; 2021 - Final </footer>
 </html>

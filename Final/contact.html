@@ -1,12 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <title>Final</title>
+    <link href="css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="dist/slicknav.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="dist/css/lightbox.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="dist/jquery.slicknav.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="js/zenscroll-min.js"></script>
+    <script src="dist/js/lightbox.min.js"></script>
+    <script>
+        $(function(){
+            $('#menu').slicknav();
+            $('.slider').bxSlider();
+            $( "#accordion" ).accordion();
+            $( "#tabs" ).tabs();
+        });
+    </script>
 </head>
+
 <body>
+    <div id="container">
+
+    <header id="#top">
+        <h1>My Photography</h1>
+    </header>
+
+    <nav>
+        <ul id="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="more.html">More Information</a></li>
+        </ul>
+    </nav>
+    </div>
+
+    <main>
+        <section>
+          <h2>Photography</h2>
+            <article>
+               
+                <div class="slider">
+                    <div><img src="images/bearr.jpg" alt="Bear"></div>
+                    <div><img src="images/eyye.jpg" alt="My Eye"></div>
+                  </div>
+                
+                <h2 id="main">What is Photography</h2>
+
+                <p>Photography is defined as the art or practice of taking and processing photographs.</p>
+
+                <a href="https://www.amateurphotographer.co.uk/wp-content/uploads/2019/08/Manual-masterclass-manual-focusing-600x400.jpg" data-lightbox="Image1" data-title="Camera">
+                <img src="https://www.amateurphotographer.co.uk/wp-content/uploads/2019/08/Manual-masterclass-manual-focusing-600x400.jpg" alt="Camera" class="center">
+                </a>
+
+                <div id="accordion">
+                    <h3>Gryffindor</h3>
+                    <div>
+                      <p>
+                        Gryffindor is one of the four Houses of Hogwarts School of Witchcraft and Wizardry and was founded by Godric Gryffindor. Gryffindor instructed the Sorting Hat to choose students possessing characteristics he most valued, such as courage, chivalry, and determination, to be sorted into his house.
+                      </p>
+                      <ul>
+                        <li>Colors are Scarlet and Gold</li>
+                        <li>Animal is Lion</li>
+                        <li>Element is Fire</li>
+                      </ul>
+                    </div>
+                    <h3>Slytherin</h3>
+                    <div>
+                      <p>
+                        Slytherins tend to be ambitious, shrewd, cunning, strong leaders, and achievement-oriented. They also have highly developed senses of self-preservation. This means that Slytherins tend to hesitate before acting, so as to weigh all possible outcomes before deciding exactly what should be done.
+                      </p>
+                      <ul>
+                        <li>Colors are Green and Silver</li>
+                        <li>Animal is Serpent</li>
+                        <li>Element is Water</li>
+                      </ul>
+                    </div>
+                    <h3>Hufflepuff</h3>
+                    <div>
+                      <p>
+                        Hufflepuff was one of the four Houses of Hogwarts School of Witchcraft and Wizardry. Its founder was the medieval witch Helga Hufflepuff. Hufflepuff was the most inclusive among the four houses; valuing hard work, dedication, patience, loyalty, and fair play rather than a particular aptitude in its members.
+                      </p>
+                      <ul>
+                        <li>Colors are Yellow and Black</li>
+                        <li>Animal is Badger</li>
+                        <li>Element is Earth</li>
+                      </ul>
+                    </div>
+                    <h3>Ravenclaw</h3>
+                    <div>
+                      <p>
+                        Ravenclaw is one of the four Houses of Hogwarts School of Witchcraft and Wizardry. Its founder was the medieval witch Rowena Ravenclaw. Members of this house are characterised by their wit, learning, and wisdom. The emblematic animal symbol is an eagle, and blue and bronze are its colours.
+                      </p>
+                      <ul>
+                        <li>Colors are Blue and Bronze</li>
+                        <li>Animal is Eagle</li>
+                        <li>Element is Air</li>
+                      </ul>
+                    </div>
+                  </div>
+
+            </article>
+
+            <div class="feature">
+                <h3 id="portfolio">Houses</h3>
+                <div class="projects">
+                   <a href="images/gry.png" data-lightbox="Houses" data-title="Gryffindor">
+                    <img src="images/gry.png" alt="gryffindor">
+                </a>
+                    <a href="images/sly.png" data-lightbox="Houses" data-title="Slytherin">
+                        <img src="images/sly.png" alt="slytherin">
+                </a>
+                    <a href="images/rav.png" data-lightbox="Houses" data-title="Ravenclaw">
+                        <img src="images/rav.png" alt="ravenclaw">
+                </a>
+                    <a href="images/huf.png" data-lightbox="Houses" data-title="Hufflepuff">
+                        <img src="images/huf.png" alt="hufflepuff">
+                </a>
+                </div>
+
+                <div id="tabs">
+                    <ul>
+                      <li><a href="#tabs-1">Characters</a></li>
+                      <li><a href="#tabs-2">Animals</a></li>
+                      <li><a href="#tabs-3">Spells</a></li>
+                    </ul>
+                    <div id="tabs-1">
+                      <ul>
+                          <li>Harry Potter – The main character of the series. Orphaned son of James and Lily Potter. Gryffindor student at Hogwarts, and co-founder and first leader of Dumbledore's Army. The husband of Ginny Weasley, father of James Sirius, Albus Severus and Lily Luna Potter.</li>
+                          <li>Ron Weasley – Youngest son of Arthur and Molly Weasley who is best friends with Harry Potter and Hermione Granger. Gryffindor Quidditch Keeper, prefect, and co-founder of Dumbledore's Army.</li>
+                          <li>Hermione Granger – Muggle-born Gryffindor student in Harry's year and one of his best friends. Prefect and co-founder of Dumbledore's Army.</li>
+                      </ul>
+                    </div>
+                    <div id="tabs-2">
+                      <ul>
+                          <li>Acromantula – A gigantic spider that is capable of human speech.</li>
+                          <li>Centaur – A creature whose head and upper torso resembles a humans but lower body including the four legs and tail resembles a horse.</li>
+                          <li>Hippogriff – A creature that is part-eagle, part-horse. Wizards can own them provided they cast a daily Disillusionment Charm on them.</li>
+                      </ul>
+                    </div>
+                    <div id="tabs-3">
+                      <ul>
+                          <li>Expecto patronum – to summon up a Patronus.</li>
+                          <li>Wingardium Leviosa – to levitate objects.</li>
+                          <li>Avada Kedavra – to bring about instant death.</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <a class="button" href="#top">Back To the Top</a>
+            </div>
+         <aside id="contact">
+            <h3>More Information</h3>
+            <h4>Contact</h4>
+                <ul>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="111-111-1111">Call</a></li>
+                </ul>
+          </aside>
+
+        </section>
+    </main>
     
 </body>
+<footer>&copy; 2021 - Lab 8 </footer>
 </html>
