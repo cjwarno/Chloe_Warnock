@@ -11,6 +11,13 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
     <link rel="stylesheet" href="dist/css/lightbox.css">
+    <style>
+      section {
+          width: 100%;
+          text-align: center;
+      }
+
+  </style>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
     <script src="dist/jquery.slicknav.min.js"></script>
@@ -54,7 +61,14 @@
 
                 <p>Creativity. To become a photographer gave me an entirely new perspective on everyday life. You can use photography to turn almost anything you find beautiful into a work of art. You can use your photographic skills to creatively capture an array of subjects that ranges from emotions to gatherings.</p>
 
-                <img src="images/mee.jpg" alt="Me">
+                <div class="feature">
+                  <h3 id="portfolio"></h3>
+                  <div class="projects">
+                     <a href="images/mee.jpg" data-lightbox="Me" data-title="Mee">
+                      <img src="images/mee.jpg" alt="Me">
+                  </a>
+                  </div>
+</article>
 
                 <h2>Types of Cameras I Use</h2>
                 <div id="accordion">
@@ -92,7 +106,7 @@
                     </div>
                   </div>
 
-            </article>
+            
 
             <div class="feature">
                 <h3 id="portfolio">Lens</h3>

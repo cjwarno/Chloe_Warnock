@@ -11,6 +11,13 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
     <link rel="stylesheet" href="dist/css/lightbox.css">
+    <style>
+        section {
+            width: 100%;
+            text-align: center;
+        }
+
+    </style>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
     <script src="dist/jquery.slicknav.min.js"></script>
@@ -48,10 +55,17 @@
     <main>
         <section>
           <h2>My Portfolio</h2>
-            <article>
-               
-                <img src="images/noahfav.jpg" alt="BF">
-                
+          
+          <div class="feature">
+                    <h3 id="portfolio">Photos</h3>
+                    <div class="projects">
+                       <a href="images/noahfav.jpg" data-lightbox="Photos" data-title="Noah">
+                        <img src="images/noahfav.jpg" alt="Noah">
+                    </a>
+                    </div>
+
+<h2>Trails</h2>
+
                 <div class="slider">
                     <div><img src="images/162043819_798104251127478_1018439421319997966_n.jpg" alt="Rocks"></div>
                     <div><img src="images/rocks.jpg" alt="More Rocks"></div>
@@ -60,9 +74,15 @@
                     <div><img src="images/trail4.jpg" alt="Trail Again"></div>
                   </div>
 
-            </article>
+<h2>Nature</h2>
 
-
+                  <div class="slider">
+                    <div><img src="images/porch.jpg" alt="Porch"></div>
+                    <div><img src="images/snow.jpg" alt="Snow"></div>
+                    <div><img src="images/treemosss.jpg" alt="Moss"></div>
+                    <div><img src="images/Tree Branch.jpg" alt="Branch"></div>
+                    <div><img src="images/cloudss.jpg" alt="Clouds"></div>
+                  </div>
 
 
                   <a class="button" href="#top">Back To the Top</a>
