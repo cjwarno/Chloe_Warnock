@@ -11,6 +11,16 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
     <link rel="stylesheet" href="dist/css/lightbox.css">
+    <style>
+      main, section {
+          display: flex;
+      }
+    section {
+         border: 4px solid black;
+         padding: 20px;
+         margin: 10px;
+      }
+    </style>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
     <script src="dist/jquery.slicknav.min.js"></script>
@@ -74,12 +84,26 @@
                 <h3 id="portfolio">Photos</h3>
                 <div class="projects">
                    <a href="images/gibs.jpg" data-lightbox="Photos" data-title="Dog">
-                    <img src="images/" alt="Dog">
+                    <img src="images/gibs.jpg" alt="Dog">
                 </a>
                 </div>
 
             </article>
-                  <a class="button" href="#top">Back To the Top</a>
+                  <div style="position: relative;background-color:#1C2B77; width: 90px; height: 80px;">    
+
+    <div style="position: absolute; bottom: 5px; background-color: #1C2B77">
+    <a class="button" href="#top">Back to the Top</a>
+    </div>
+</div>
+
+<div class="feature">
+  <h3 id="portfolio">Photos</h3>
+  <div class="projects">
+     <a href="images/Berries.jpg" data-lightbox="Photos" data-title="Berries">
+      <img src="images/Berries.jpg" alt="Berries">
+  </a>
+  </div>
+
             </div>
          <aside id="contact">
             <h3>More Information</h3>
