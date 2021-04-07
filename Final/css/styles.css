@@ -53,7 +53,7 @@ nav li a:hover {
 }
 
 main {
-    background-color: #1C2B77;
+    background-color: #5bb1cd;
     margin: 20px auto;
     padding: 20px;
     border: 2px solid #020708;
@@ -84,7 +84,7 @@ article img {
   }
 
 .projects {
-    background-color: #1C2B77;
+    background-color: #5bb1cd;
     padding: 0;
     margin-top: 0%;
 }
@@ -119,13 +119,13 @@ aside li a {
     padding: 0 0;
     background-color: #ffff4d;
     text-align: center;
-    color: #1C2B77;
+    color: #5bb1cd;
     font-size: 75%;
     text-decoration: none;
 }
 
 aside li a:hover {
-    background-color: #1C2B77;
+    background-color: #5bb1cd;
 }
 
 footer {
@@ -153,7 +153,7 @@ div.bx-wrapper {
     padding: 0 0;
     background-color: #ffff4d;
     text-align: center;
-    color: #1C2B77;
+    color: #5bb1cd;
     font-size: 75%;
     text-decoration: none;
 }
@@ -201,7 +201,7 @@ table, th, td {
     }
 
     .feature {
-        background-color: #1C2B77;
+        background-color: #5bb1cd;
         padding: 0 0;
         margin-top: 0%;
     }
