@@ -190,6 +190,10 @@ table, th, td {
         display: block;
     }
 
+.slicknav_menu {
+    display: none;
+}
+
 }
 
 @media screen and (min-width: 790px) {
