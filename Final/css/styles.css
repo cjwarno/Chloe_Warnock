@@ -1,18 +1,18 @@
 body {
-    background-color: #5bb1cd;
+    background-color: #000;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 header {
-    background-color: #ffff4d;
-    color: #5bb1cd;
+    background-color: #FFFFFF;
+    color: #000;
     padding: 10% 0;
     text-align: center;
     font-size: 75%;
 }
 
 body {
-    background-color: #5bb1cd;
+    background-color: #5e5e60;
 }
 
 img{
@@ -27,7 +27,7 @@ img {
 }
 
 nav {
-    background-color: #5bb1cd;
+    background-color: #fff;
 }
 
 nav ul {
@@ -40,27 +40,27 @@ nav li {
 }
 
 nav li a:hover {
-    background-color: #ffff4d;
-    color: #5bb1cd;
+    background-color: #000;
+    color: #fff;
 }
 
 #container {
-    background-color: #ff7f50;
-    width: 75%;
-    margin: 20px auto;
-    padding: 20px;
+    background-color: #313132;
+    width: 50%;
+    margin: 10px auto;
+    padding: 10px;
     border: 2px solid #020708;
 }
 
 main {
-    background-color: #5bb1cd;
-    margin: 20px auto;
-    padding: 20px;
+    background-color: #fff;
+    margin: 10px auto;
+    padding: 10px;
     border: 2px solid #020708;
 }
 
 article {
-    background-color: #5bb1cd;
+    background-color: #fff;
     padding: 0;
 }
 
@@ -84,7 +84,7 @@ article img {
   }
 
 .projects {
-    background-color: #5bb1cd;
+    background-color: #fff;
     padding: 0;
     margin-top: 0%;
 }
@@ -96,7 +96,7 @@ article img {
 }
 
 aside {
-    background-color: #5bb1cd;
+    background-color: #fff;
     margin: 0 0;
     padding: 0;
     text-align: center;
@@ -117,26 +117,26 @@ aside li {
 
 aside li a {
     padding: 0 0;
-    background-color: #ffff4d;
+    background-color: #fff;
     text-align: center;
-    color: #5bb1cd;
+    color: #000;
     font-size: 75%;
     text-decoration: none;
 }
 
 aside li a:hover {
-    background-color: #5bb1cd;
+    background-color: #fff;
 }
 
 footer {
-    background-color: #5bb1cd;
+    background-color: #fff;
     text-align: center;
-    color: #ffff4d;
+    color: #000;
     padding: 0 0;
 }
 
 .feature {
-    background-color: #5bb1cd;
+    background-color: #fff;
     padding: 0 0;
     margin-top: 0%;
 }
@@ -151,9 +151,9 @@ div.bx-wrapper {
 
 .button {
     padding: 0 0;
-    background-color: #ffff4d;
+    background-color: #000;
     text-align: center;
-    color: #5bb1cd;
+    color: #fff;
     font-size: 75%;
     text-decoration: none;
 }
@@ -179,8 +179,8 @@ video {
     }
 
     nav li  a {
-        background-color: #5bb1cd;
-        color: #ffff4d;
+        background-color: #fff;
+        color: #000;
     }
 
     #menu {
@@ -210,7 +210,7 @@ video {
     }
 
     .feature {
-        background-color: #5bb1cd;
+        background-color: #fff;
         padding: 0 0;
         margin-top: 0%;
     }
