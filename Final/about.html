@@ -16,6 +16,20 @@
           width: 100%;
           text-align: center;
       }
+      
+main li {
+  float: left;
+}
+
+main li a {
+  display: inline-block;
+  color: black;
+}
+
+/* Change the link color to #111 (black) on hover */
+main li a:hover {
+  background-color: grey;
+}
   </style>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
@@ -69,7 +83,6 @@
                 <p>Creativity. To become a photographer gave me an entirely new perspective on everyday life. You can use photography to turn almost anything you find beautiful into a work of art. You can use your photographic skills to creatively capture an array of subjects that ranges from emotions to gatherings.</p>
 
                 <div class="feature">
-                  <h3>Photos</h3>
                   <div class="projects">
                      <a href="images/mee.jpg" data-lightbox="Me" data-title="Mee">
                       <img src="images/mee.jpg" alt="Me">
@@ -77,6 +90,29 @@
                 </div>
                 </div>
             </article>
+
+            <h3>Influenced By</h3>
+              <h4>Sally Mann</h4>
+                <p>An American photographer, widely known for her large-format, black-and-white photographs—at first of her young children, then later of landscapes suggesting decay and death.</p>
+                <div class="slider">
+                  <div><img src="images/sally.jpg" alt="Sally Mann"></div>
+                  <div><img src="images/sally1.jpg" alt="SM"></div>
+                  <div><img src="images/sally2.jpg" alt="SM"></div>
+                </div>
+                <h4>Eugène Atget</h4>
+                <p>Considered a pioneer of documentary photography, noted for his determination to document all of the architecture and street scenes of Paris before their disappearance to modernization. Most of his photographs were first published by Berenice Abbott after his death.</p>
+                <div class="slider">
+                  <div><img src="images/atget.jpg" alt="Atget" style="width:500px;height:auto;"></div>
+                  <div><img src="images/atget1.jpg" alt="EA" style="width:500px;height:auto;"></div>
+                  <div><img src="images/atget2.jpg" alt="EA" style="width:800px;height:auto;"></div>
+                </div>
+                <h4>Garry Winogrand</h4>
+                <p>An American street photographer, known for his portrayal of U.S. life and its social issues, in the mid-20th century.</p>
+                <div class="slider">
+                  <div><img src="images/garry.jpg" alt="Garry"></div>
+                  <div><img src="images/garry1.jpg" alt="GW"></div>
+                  <div><img src="images/garry2.jpg" alt="GW"></div>
+                </div>
 
                 <h2 id="camera">Types of Cameras I Use</h2>
                 <div id="accordion">
