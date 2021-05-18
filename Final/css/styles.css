@@ -198,6 +198,10 @@ video {
     display: none;
 }
 
+div.bx-wrapper {
+    display: none;
+}
+
 }
 
 @media screen and (min-width: 790px) {
@@ -216,6 +220,14 @@ video {
 
     .projects {
         margin: 0%;
+    }
+
+    .slicknav_menu {
+        display: none;
+    }
+
+    div.bx-wrapper {
+        display: none;
     }
 
 }
